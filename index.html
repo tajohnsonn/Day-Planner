@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Work Day Scheduler</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -17,10 +18,13 @@
 <!--Large Header with quote-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
+      <hr> 
       <p class="lead">
         "Great things come from hard work and perseverance. No excuses." - Kobe
         Bryant
       </p>
+      <hr>
+      <div class="time"></div>
       <p id="currentDay" class="lead"></p>
     </header>
 <!--Times Start Here-->
@@ -82,12 +86,13 @@
         <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
       </div>
    
-   
-   
-   
-   
-   
-      </div>
     </div>
-  </body>
+  </div>
+   
+<script type="text/javascript" src="mysrc.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
+
+</script>
+</body>
 </html>

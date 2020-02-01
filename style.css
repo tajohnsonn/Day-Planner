@@ -1,0 +1,47 @@
+.jumbotron {
+  text-align: center;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid white;
+  background-color: lightpink !important ;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 2;
+}
+textarea {
+  background: rgb(237, 207, 216);
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid black;
+  padding: 12px;
+}
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  border-left: 1px dashed black;
+}
+.time-block {
+  text-align: center;
+}
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: lightpink;
+  color: black;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
