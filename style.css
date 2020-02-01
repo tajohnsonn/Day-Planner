@@ -25,6 +25,9 @@ textarea {
   border-bottom: 1px dashed black;
   border-left: 1px dashed black;
 }
+.time {
+  color: #ffffff;
+}
 .time-block {
   text-align: center;
 }

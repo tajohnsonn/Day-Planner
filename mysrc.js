@@ -1,1 +1,1 @@
-$("#time").text(moment().format("YYYY, MMM, Do"));
+$("#currentDay").text(moment().format(" MMMM Do, YYYY"));
