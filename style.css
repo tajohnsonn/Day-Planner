@@ -1,6 +1,6 @@
 .jumbotron {
   text-align: center;
-  color: white;
+  color: black;
   border-radius: 0;
   border-bottom: 10px solid white;
   background-color: lightpink !important ;
@@ -8,18 +8,18 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
-  line-height: 2;
+  line-height: 1;
 }
 textarea {
-  background: rgb(237, 207, 216);
+  background: transparent;
   border: none;
   resize: none;
   color: black;
   border-left: 1px solid black;
-  padding: 12px;
+  padding: 8px;
 }
 .hour {
-  background-color: #ffffff;
+  background-color: pink;
   color: #000000;
   border-top: 1px dashed black;
   border-bottom: 1px dashed black;
@@ -38,13 +38,29 @@ textarea {
 }
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
   background-color: lightpink;
   color: black;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 12px;
   transition: all 0.3s ease-in-out;
+}
+.far {
+  font-size: 200%;
+}
+
+.past {
+  background-color: pink;
+  color: black;
+}
+
+.present {
+  background-color: lightpink;
+  color: black;
+}
+
+.future {
+  background-color: thistle;
+  color: black;
 }
